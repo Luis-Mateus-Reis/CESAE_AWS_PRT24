@@ -10,6 +10,17 @@ match menu:
     case 3:
         print("Eliminar")
     case 4:
-        print("")
+        pass
     case _:
         print("Opção inválida!")
+
+if menu == 1:
+    print("Criar")
+elif menu == 2:
+    print("Atualizar")
+elif menu == 3:
+    print("Eliminar")
+elif menu == 4:
+    pass
+else:
+    print("Opção inválida!")
